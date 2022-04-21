@@ -7,7 +7,7 @@ This repository has all files used in the course. Specifically, two packages are
 
 ## Installing
 1. To use these exercise files, you must check the prerequisites for ns-3:
-	[ns-3 documentation]: https://www.nsnam.org/wiki/Installation
+	- [ns-3 documentation:]https://www.nsnam.org/wiki/Installation
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like GitHub Desktop.
 3. Build the ns-3.35 pacakge and ns3-mmwave 4.0 package, respectively.
 
