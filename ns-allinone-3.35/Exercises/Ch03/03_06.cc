@@ -115,9 +115,8 @@ main (int argc, char *argv[])
 
   Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
 
-  //pointToPoint.EnablePcapAll ("ethernet");
-  //csma.EnablePcap ("ethernet", csmaDevices.Get (0), true); // Sniff the pcap captures on Node 1 (i.e., the first node in the ethernet) in the promiscuous mode 
-  csma.EnablePcapAll ("ethernet-challenge", false);
+  pointToPoint.EnablePcapAll ("ethernet");
+  csma.EnablePcap ("ethernet", csmaDevices.Get (0), true); // Sniff the pcap captures on Node 1 (i.e., the first node in the ethernet) in the promiscuous mode 
 
   NS_LOG_INFO("Run Simulation.");
   Simulator::Run();
