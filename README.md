@@ -12,14 +12,14 @@ This repository has all files used in the course. Specifically, two packages are
 3. Build the ns-3.35 pacakge and ns3-mmwave 4.0 package, respectively.
 
 The packages can be built on different OS's following the ns-3 documentation. For the course videos, the pacakges were tested to be able to be built on macOS Big Sur. Suppose the pacakges are available under <code>Downloads/ns-allinone-3.35/</code> and <code>Downloads/ns3-mmwave-4.0/</code> directories. The following commands were used to build the ns-3.35 package on macOS Big Sur:
-<code>$ cd ns-3.35 </code>
-<code>$ ./waf configure </code>
-<code>$ ./waf --enable-examples --enable-tests </code>
+- <code>$ cd ns-3.35 </code>
+- <code>$ ./waf configure </code>
+- <code>$ ./waf --enable-examples --enable-tests </code>
 
 To build the ns3-mmwave-4.0 pacakage, the following commands were used:
-<code>$ cd ns-3.35 </code>
-<code>$ CXXFLAGS="-Wall" ./waf configure </code>
-<code>$ ./waf --enable-examples --enable-tests </code>
+- <code>$ cd ns-3.35 </code>
+- <code>$ CXXFLAGS="-Wall" ./waf configure </code>
+- <code>$ ./waf --enable-examples --enable-tests </code>
 
 The usage of each exercise file can be seen from the course videos, as well as the source code of the files.
 
