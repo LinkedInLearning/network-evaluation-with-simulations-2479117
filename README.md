@@ -1,5 +1,9 @@
-# Network Design & Performance Evaluation with Simulations
-This is the repository for the LinkedIn Learning course `Network Design & Performance Evaluation with Simulations`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Network Design and Performance Evaluation with Simulations
+This is the repository for the LinkedIn Learning course Network Design and Performance Evaluation with Simulations. The full course is available from [LinkedIn Learning][lil-course-url].
+
+![Network Design and Performance Evaluation with Simulations][lil-thumbnail-url] 
+
+Regardless of the size, form, or implementation of a network, a fundamental goal of any network design is to meet the key performance metrics. In this course, Ryan Hu shows you the principles of network design, topologies, and performance evaluation, and how to test your design with network simulations. Ryan shows you how to create and evaluate simulated networks with ns-3 scripts, leveraging network technologies like Ethernet, Wi-Fi, and 5G, and provides hands-on exercises and challenges so you can apply the basic principles of network performance evaluation in your custom simulations.
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
@@ -26,8 +30,15 @@ The usage of each exercise file can be seen from the course videos, as well as t
 
 Users may use a future release of ns-3 or ns-3 mmWave extension to run the exercise files. In this case, the Exercises folder will need to be copied from the <code>ns-allinone-3.35/Exercises</code> folder.
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Ryan Hu 
+                            
+Professor and Professional Engineer
 
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ryan-hu).
+
+[lil-course-url]: https://www.linkedin.com/learning/network-design-and-performance-evaluation-with-simulations
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2479117/2479117-1655494151120-16x9.jpg
